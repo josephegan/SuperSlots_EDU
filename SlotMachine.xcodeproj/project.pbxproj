@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9AC87B219F982EF00305BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC87B119F982EF00305BEB /* AppDelegate.swift */; };
+		F9AC87B419F982EF00305BEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC87B319F982EF00305BEB /* ViewController.swift */; };
+		F9AC87B719F982EF00305BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AC87B519F982EF00305BEB /* Main.storyboard */; };
+		F9AC87B919F982EF00305BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AC87B819F982EF00305BEB /* Images.xcassets */; };
+		F9AC87BC19F982EF00305BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AC87BA19F982EF00305BEB /* LaunchScreen.xib */; };
+		F9AC87C819F982EF00305BEB /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AC87C719F982EF00305BEB /* SlotMachineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9AC87C219F982EF00305BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9AC87A419F982EE00305BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9AC87AB19F982EF00305BEB;
+			remoteInfo = SlotMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9AC87AC19F982EF00305BEB /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AC87B019F982EF00305BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AC87B119F982EF00305BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9AC87B319F982EF00305BEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9AC87B619F982EF00305BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9AC87B819F982EF00305BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9AC87BB19F982EF00305BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9AC87C119F982EF00305BEB /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AC87C619F982EF00305BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AC87C719F982EF00305BEB /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9AC87A919F982EF00305BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC87BE19F982EF00305BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9AC87A319F982EE00305BEB = {
+			isa = PBXGroup;
+			children = (
+				F9AC87AE19F982EF00305BEB /* SlotMachine */,
+				F9AC87C419F982EF00305BEB /* SlotMachineTests */,
+				F9AC87AD19F982EF00305BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9AC87AD19F982EF00305BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC87AC19F982EF00305BEB /* SlotMachine.app */,
+				F9AC87C119F982EF00305BEB /* SlotMachineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9AC87AE19F982EF00305BEB /* SlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC87B119F982EF00305BEB /* AppDelegate.swift */,
+				F9AC87B319F982EF00305BEB /* ViewController.swift */,
+				F9AC87B519F982EF00305BEB /* Main.storyboard */,
+				F9AC87B819F982EF00305BEB /* Images.xcassets */,
+				F9AC87BA19F982EF00305BEB /* LaunchScreen.xib */,
+				F9AC87AF19F982EF00305BEB /* Supporting Files */,
+			);
+			path = SlotMachine;
+			sourceTree = "<group>";
+		};
+		F9AC87AF19F982EF00305BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC87B019F982EF00305BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9AC87C419F982EF00305BEB /* SlotMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC87C719F982EF00305BEB /* SlotMachineTests.swift */,
+				F9AC87C519F982EF00305BEB /* Supporting Files */,
+			);
+			path = SlotMachineTests;
+			sourceTree = "<group>";
+		};
+		F9AC87C519F982EF00305BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AC87C619F982EF00305BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9AC87AB19F982EF00305BEB /* SlotMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AC87CB19F982EF00305BEB /* Build configuration list for PBXNativeTarget "SlotMachine" */;
+			buildPhases = (
+				F9AC87A819F982EF00305BEB /* Sources */,
+				F9AC87A919F982EF00305BEB /* Frameworks */,
+				F9AC87AA19F982EF00305BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotMachine;
+			productName = SlotMachine;
+			productReference = F9AC87AC19F982EF00305BEB /* SlotMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9AC87C019F982EF00305BEB /* SlotMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AC87CE19F982EF00305BEB /* Build configuration list for PBXNativeTarget "SlotMachineTests" */;
+			buildPhases = (
+				F9AC87BD19F982EF00305BEB /* Sources */,
+				F9AC87BE19F982EF00305BEB /* Frameworks */,
+				F9AC87BF19F982EF00305BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9AC87C319F982EF00305BEB /* PBXTargetDependency */,
+			);
+			name = SlotMachineTests;
+			productName = SlotMachineTests;
+			productReference = F9AC87C119F982EF00305BEB /* SlotMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9AC87A419F982EE00305BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = JoeE;
+				TargetAttributes = {
+					F9AC87AB19F982EF00305BEB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F9AC87C019F982EF00305BEB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F9AC87AB19F982EF00305BEB;
+					};
+				};
+			};
+			buildConfigurationList = F9AC87A719F982EE00305BEB /* Build configuration list for PBXProject "SlotMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9AC87A319F982EE00305BEB;
+			productRefGroup = F9AC87AD19F982EF00305BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9AC87AB19F982EF00305BEB /* SlotMachine */,
+				F9AC87C019F982EF00305BEB /* SlotMachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9AC87AA19F982EF00305BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AC87B719F982EF00305BEB /* Main.storyboard in Resources */,
+				F9AC87BC19F982EF00305BEB /* LaunchScreen.xib in Resources */,
+				F9AC87B919F982EF00305BEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC87BF19F982EF00305BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9AC87A819F982EF00305BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AC87B419F982EF00305BEB /* ViewController.swift in Sources */,
+				F9AC87B219F982EF00305BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC87BD19F982EF00305BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AC87C819F982EF00305BEB /* SlotMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9AC87C319F982EF00305BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9AC87AB19F982EF00305BEB /* SlotMachine */;
+			targetProxy = F9AC87C219F982EF00305BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9AC87B519F982EF00305BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AC87B619F982EF00305BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9AC87BA19F982EF00305BEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AC87BB19F982EF00305BEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9AC87C919F982EF00305BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9AC87CA19F982EF00305BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9AC87CC19F982EF00305BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlotMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9AC87CD19F982EF00305BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlotMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9AC87CF19F982EF00305BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlotMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotMachine.app/SlotMachine";
+			};
+			name = Debug;
+		};
+		F9AC87D019F982EF00305BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlotMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotMachine.app/SlotMachine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9AC87A719F982EE00305BEB /* Build configuration list for PBXProject "SlotMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AC87C919F982EF00305BEB /* Debug */,
+				F9AC87CA19F982EF00305BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AC87CB19F982EF00305BEB /* Build configuration list for PBXNativeTarget "SlotMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AC87CC19F982EF00305BEB /* Debug */,
+				F9AC87CD19F982EF00305BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9AC87CE19F982EF00305BEB /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AC87CF19F982EF00305BEB /* Debug */,
+				F9AC87D019F982EF00305BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9AC87A419F982EE00305BEB /* Project object */;
+}
